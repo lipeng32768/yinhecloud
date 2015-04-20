@@ -1,0 +1,105 @@
+---
+architecture: x86_64
+kernel: Linux
+blockdevice_sda_size: 320072933376
+blockdevice_sda_vendor: ATA
+blockdevice_sda_model: WDC WD3200AAKS-7
+blockdevice_sr0_size: 4632608768
+blockdevice_sr0_vendor: TSSTcorp
+blockdevice_sr0_model: DVD-ROM TS-H353C
+blockdevice_sdb_size: 15805186048
+blockdevice_sdb_vendor: ADATA
+blockdevice_sdb_model: USB Flash Drive
+blockdevices: sda,sdb,sr0
+domain: example.com
+macaddress: BC:30:5B:A6:74:6B
+osfamily: RedHat
+operatingsystem: CentOS
+facterversion: 1.7.3
+filesystems: ext4,iso9660,vfat
+fqdn: broker.example.com
+hardwareisa: x86_64
+hardwaremodel: x86_64
+hostname: broker
+id: root
+interfaces: eth0,lo
+ipaddress_eth0: 192.168.125.10
+macaddress_eth0: BC:30:5B:A6:74:6B
+netmask_eth0: 255.255.255.0
+mtu_eth0: '1500'
+ipaddress_lo: 127.0.0.1
+netmask_lo: 255.0.0.0
+mtu_lo: '65536'
+ipaddress: 192.168.125.10
+kernelmajversion: '2.6'
+kernelrelease: 2.6.32-504.12.2.el6.x86_64
+kernelversion: 2.6.32
+boardmanufacturer: Dell Inc.
+boardproductname: 0HN7XN
+boardserialnumber: ..CN137400BB08LS.
+bios_vendor: Dell Inc.
+bios_version: A02
+bios_release_date: 08/27/2010
+manufacturer: Dell Inc.
+productname: OptiPlex 380
+serialnumber: G3WZZ2X
+uuid: 44454C4C-3300-1057-805A-C7C04F5A3258
+type: Mini Tower
+memorysize: 1.80 GB
+memoryfree: 1.09 GB
+swapsize: 3.88 GB
+swapfree: 3.88 GB
+swapsize_mb: '3968.00'
+swapfree_mb: '3968.00'
+memorysize_mb: '1840.61'
+memoryfree_mb: '1118.96'
+memorytotal: 1.80 GB
+netmask: 255.255.255.0
+network_eth0: 192.168.125.0
+network_lo: 127.0.0.0
+district_uuid: 5514c1016892df4650000001
+district_active: true
+district_first_uid: '1000'
+district_max_uid: '6999'
+public_ip: 192.168.125.10
+public_hostname: broker.example.com
+host_ip: 192.168.125.10
+node_profile: small
+max_active_gears: '100'
+no_overcommit_active: false
+quota_blocks: '1048576'
+quota_files: '80000'
+gears_active_count: 1
+gears_total_count: 1
+gears_idle_count: 0
+gears_stopped_count: 0
+gears_started_count: 1
+gears_deploying_count: 0
+gears_unknown_count: 0
+gears_usage_pct: 1.0
+gears_active_usage_pct: 1.0
+git_repos: 0
+capacity: '1.0'
+active_capacity: '1.0'
+sshfp: ! 'broker.example.com IN SSHFP 1 1 7e1943fadfa7bd1b9ed6b2783726e5f205aa815b
+
+'
+operatingsystemmajrelease: '6'
+operatingsystemrelease: '6.6'
+path: /opt/rh/ruby193/root/usr/bin:/sbin:/bin:/usr/sbin:/usr/bin
+physicalprocessorcount: 1
+processor0: Pentium(R) Dual-Core  CPU      E5700  @ 3.00GHz
+processor1: Pentium(R) Dual-Core  CPU      E5700  @ 3.00GHz
+processorcount: '2'
+ps: ps -ef
+rubysitedir: /opt/rh/ruby193/root/usr/local/share/ruby/site_ruby
+rubyversion: 1.9.3
+selinux: 'false'
+timezone: CST
+uniqueid: a8c00a7d
+uptime: 1:13 hours
+uptime_days: 0
+uptime_hours: 1
+uptime_seconds: 4383
+virtual: physical
+is_virtual: 'false'
